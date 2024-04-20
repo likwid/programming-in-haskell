@@ -3,12 +3,12 @@
     let
       version = "1.0.4";
 system = "x86_64-linux";
-devenv_root = "/home/rgonzalez/src/github.com/likwid/programming-in-haskell-book";
+devenv_root = "/home/rgonzalez/src/github.com/likwid/programming-in-haskell";
 devenv_dotfile = ./.devenv;
 devenv_dotfile_string = ".devenv";
 container_name = null;
 devenv_tmpdir = "/run/user/1000/";
-devenv_runtime = "/run/user/1000/devenv-d778a33";
+devenv_runtime = "/run/user/1000/devenv-b11351f";
 
         in {
         pre-commit-hooks.url = "github:cachix/pre-commit-hooks.nix";
@@ -23,12 +23,12 @@ devenv_runtime = "/run/user/1000/devenv-d778a33";
         let
           version = "1.0.4";
 system = "x86_64-linux";
-devenv_root = "/home/rgonzalez/src/github.com/likwid/programming-in-haskell-book";
+devenv_root = "/home/rgonzalez/src/github.com/likwid/programming-in-haskell";
 devenv_dotfile = ./.devenv;
 devenv_dotfile_string = ".devenv";
 container_name = null;
 devenv_tmpdir = "/run/user/1000/";
-devenv_runtime = "/run/user/1000/devenv-d778a33";
+devenv_runtime = "/run/user/1000/devenv-b11351f";
 
             devenv =
             if builtins.pathExists (devenv_dotfile + "/devenv.json")
